@@ -1,0 +1,147 @@
+
+//@font-face {
+   // font-family: display;
+    //src: url(../font/SFProDisplay-Bold.ttf);
+//}
+$btncolor: #4464FC;
+$bgcolor: #5465B2;
+
+
+
+.icon-container {
+    display: flex;
+     justify-content: center;
+}
+.icon {
+    width: 400px;
+     padding-top: 6em;
+     justify-content: center;
+}
+.header {
+    padding-left: 1em;
+    color: white;
+    font-weight: bolder;
+   font-size: 70px;
+}
+
+.list-container{
+    width: 100%;
+    color: white;
+    justify-content: center;
+   position: relative;
+   font-size: 50px;  
+   font-weight: 500;
+  height: 500px;
+ 
+  
+}
+table tr {
+    counter-increment: row-num;
+  }
+table tr td:first-child::before {
+    content: counter(row-num) ". ";
+}
+
+
+ 
+ td {
+    padding-left: 140px;
+    counter-increment: section;
+  
+    
+ }
+.first {
+    padding-left: 80px;
+    counter-increment: section;
+    text-align: start;
+}
+
+
+.score {
+    color: #FCD44B;
+}
+
+.button-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 9em;
+    
+
+.button {
+    border: none;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    color: $btncolor;
+    font-weight: bold;
+ }
+}
+
+
+
+
+.form-container {
+    display: grid;
+    padding-left: 160px;
+
+.label-container{
+        margin-bottom: 60px;  
+} 
+}
+
+label {
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+  
+    
+}
+
+input {
+    
+    height: 100px;
+    width: 13em;
+    border: none;
+   background-color: $bgcolor;
+    opacity: 80%;
+    font-size: 60px;
+    margin-top: 10px;
+
+}
+input::placeholder {
+   font-size: 50px;
+   padding-left: 50px;
+   color: white;
+}
+.score-input{
+    height: 150px;
+    width: 300px;
+    color: white;
+ }
+
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 6em;
+    
+}    
+ 
+ .btn {
+    border: none;
+     font-size: 50px;
+     border-radius: 10px;
+     padding: 2rem 2em;
+     color: $btncolor;
+     font-weight: bold;
+  }
+  tr:nth-child(odd) {background-color: $bgcolor;
+opacity: 80%;
+
+}
+
+
+
+
+
